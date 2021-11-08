@@ -1,0 +1,24 @@
+
+/* :local(.box) {
+  color: rgb(153, 202, 39);
+}
+
+:global(.text) {
+  font-size: 20px;
+  color: rgb(112, 13, 224);
+} */
+
+.box {
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin: 20px;
+}
+.box span {
+  color: green;
+}
